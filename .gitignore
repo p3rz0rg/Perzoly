@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+backend/.venv/
+
+# Local database — personal finance data never goes to git
+*.db
+*.db-journal
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Misc
+.env
+*.log
+.DS_Store
